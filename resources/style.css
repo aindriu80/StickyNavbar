@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open-Sans:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,7 +6,7 @@
 }
 
 body {
-  font-family: 'Open-Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #222;
   padding-bottom: 50px;
 }
@@ -23,7 +22,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav .container {
@@ -31,7 +30,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav ul {
@@ -45,7 +44,7 @@ body {
   color: #fff;
   text-decoration: none;
   padding: 7px 15px;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav.active {
@@ -58,12 +57,13 @@ body {
 }
 
 .nav.active .container {
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .nav a.current,
 .nav a:hover {
-  color: #c0393b;
+  color: #c0392b;
+  font-weight: bold;
 }
 
 .hero {
@@ -74,6 +74,7 @@ body {
   height: 100vh;
   color: #fff;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   position: relative;
@@ -105,7 +106,7 @@ body {
 .content h2,
 .content h3 {
   font-size: 150%;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .content p {
